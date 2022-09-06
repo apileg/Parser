@@ -126,7 +126,7 @@ function validateAndAddCodeIfNeeded(phone: string, PhoneFormats: PhoneFormat[]):
     else if(phone.length === code.length - code.code.length){
       return code + phone;
     }
-    return undefined;
   }
-}
 
+  return undefined;
+}
